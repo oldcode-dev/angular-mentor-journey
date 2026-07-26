@@ -7,6 +7,7 @@ import { CounterComponent } from './counter-component/counter-component';
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
+
 export class App {
   
   

@@ -1,2 +1,9 @@
 <p>Count: {{ count() }}</p>
 <button (click)="increment()"> + 1</button>
+@if (count() === 0) {
+    <p>Nothing counted yer - click the button!</p>
+} @else if (count() < 5) {
+    <p>Keep going...</p>
+} @else {
+    <p>You're on fire! 🔥</p>
+}
